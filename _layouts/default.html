@@ -13,7 +13,7 @@
 
 	
 	<div >　　	
-		<div id="aa" style="width:140px;height:140px;background:#c0c0c0;bottom: 20px;" >与我联系~
+		<div id="aa" style="width:140px;height:140px;background:#c0c0c0;" >与我联系~
 		 <img src="{{ site.url }}/style/images/contact_weixin.gif" alt="扫一扫加好友"> 
 		</div>
 	</div>
@@ -22,7 +22,7 @@
 		 function scroll(p){
 		  var d = document,w = window,o = d.getElementById(p.id),ie6 = /msie 6/i.test(navigator.userAgent);
 		  if(o){
-		   o.style.cssText +=";position:"+(p.f&&!ie6?'fixed':'absolute')+";"+(p.r?'left':"right")+":0;"+(p.t!=undefined?'top:'+p.t+'px':'bottom:0');
+		   o.style.cssText +=";position:"+(p.f&&!ie6?'fixed':'absolute')+";"+(p.r?'left':"right")+":0;"+(p.t!=undefined?'top:'+p.t+'px':'bottom:20');
 		   if(!p.f||ie6){
 			-function(){
 			var t = 500,st = d.documentElement.scrollTop||d.body.scrollTop,c;
