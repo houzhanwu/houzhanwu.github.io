@@ -22,7 +22,7 @@
 		 function scroll(p){
 		  var d = document,w = window,o = d.getElementById(p.id),ie6 = /msie 6/i.test(navigator.userAgent);
 		  if(o){
-		   o.style.cssText +=";position:"+(p.f&&!ie6?'fixed':'absolute')+";"+(p.r?'left':"right")+":0;"+(p.t!=undefined?'top:'+p.t+'px':'bottom:20');
+		   o.style.cssText +=";position:"+(p.f&&!ie6?'fixed':'absolute')+";"+(p.r?'left':"right")+":0;"+(p.t!=undefined?'top:'+(p.t - 50)+'px':'bottom:20');
 		   if(!p.f||ie6){
 			-function(){
 			var t = 500,st = d.documentElement.scrollTop||d.body.scrollTop,c;
