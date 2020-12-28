@@ -15,7 +15,7 @@ links:
     url:          /
     external:     false
   - name:         Java 
-    url:          /java
+    url:          /book
     external:     false
   - name:         Jsp
     url:          /jsp
