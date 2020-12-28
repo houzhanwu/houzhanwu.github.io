@@ -1,9 +1,9 @@
 # ----------- CONFIGURABLE START -----------
-title:            "houzhanwu|深蓝程序社|独立开发者|jekyll blog|GitHub blog|软件供应商"
+title:            "深蓝程序社|独立开发者|jekyll blog|GitHub blog|软件供应商"
 description:      "Full Stack独立开发者|欢迎来到 houzhanwu「作品集」侃侃理想、谈谈人生、敲敲代码。"
 url:              https://houzhanwu.github.io # 域名
 signoff:          "houzhanwu" # Your name
-facebook_appid:   #liberxue
+facebook_appid:   #houzhanwu
 google_analytics: UA-101222464-1
 share:            true 
 # 分页
@@ -15,10 +15,10 @@ links:
     url:          /
     external:     false
   - name:         Java 
-    url:          /book
+    url:          /java
     external:     false
   - name:         Jsp
-    url:          /road
+    url:          /jsp
     external:     false
   - name:         归档
     url:          /archives
