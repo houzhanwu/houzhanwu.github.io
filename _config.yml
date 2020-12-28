@@ -18,7 +18,7 @@ links:
     url:          /book
     external:     false
   - name:         Jsp
-    url:          /jsp
+    url:          /road
     external:     false
   - name:         归档
     url:          /archives
