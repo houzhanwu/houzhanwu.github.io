@@ -8,6 +8,32 @@
     {% include head.html %}
   </head>
 <body class="" gtools_scp_screen_capture_injected="true">
+
+<div >　　	
+		<div id="aa" style="width:140px;height:170px;z-index: 999" >扫一扫,与我联系~
+		 <img src="{{ site.url }}/style/images/contact_weixin.gif" alt="扫一扫加好友"> 
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		 function scroll(p){
+		  var d = document,w = window,o = d.getElementById(p.id),ie6 = /msie 6/i.test(navigator.userAgent);
+		  if(o){
+		   o.style.cssText +=";position:"+(p.f&&!ie6?'fixed':'absolute')+";"+(p.r?'left':"right")+":0;"+(p.t!=undefined?'top:'+(p.t - 50)+'px':'bottom:20');
+		   if(!p.f||ie6){
+			-function(){
+			var t = 500,st = d.documentElement.scrollTop||d.body.scrollTop,c;
+		   c = st - o.offsetTop + (p.t!=undefined?p.t:(w.innerHeight||d.documentElement.clientHeight)-o.offsetHeight);//如果你是html 4.01请改成d.body,这里不处理以减少代码
+			c!=0&&(o.style.top = o.offsetTop + Math.ceil(Math.abs(c)/10)*(c<0?-1:1) + 'px',t=10);
+			setTimeout(arguments.callee,t)
+		   }() 
+		   }
+		  }
+		 }
+		 scroll({
+		  id:'aa'
+		 })
+	</script>
 <header id="header" class="header bg-white">
     <div class="navbar-container">
       <a href="/?liberxue" title="访问 {{site.title }}" class="navbar-logo"> <img src="{{ site.url }}/style/images/logo-liberxue.png" alt="{{ site.title }}"> </a>
